@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _printf - Print a formatted string to stdout
@@ -8,7 +8,7 @@
  */
 int _printf(const char *format, ...)
 {
-	list args;
+	va_list args;
 	int count = 0;
 
 	va_start(args, format);
