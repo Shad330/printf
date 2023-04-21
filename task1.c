@@ -7,8 +7,10 @@
  */
 int main(void)
 {
-    int num = 26;
-    printf("%d\n", num);
-    printf("%i\n", num);
-    return (0);
+int num = 26;
+
+printf("%d\n", num);
+printf("%i\n", num);
+
+return (0);
 }
