@@ -1,10 +1,5 @@
 #include "main.h"
 
-int main()
-{
-return (0);
-}
-
 /**
  * _printf - Print a formatted string to stdout
  * @format: The format string
